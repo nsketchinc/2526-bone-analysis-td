@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+build/
+dist/
+.coverage
+htmlcov/
+
+# Model weights (auto-downloaded by Ultralytics)
+*.pt
+!.gitkeep
+
+# TouchDesigner
+*.toe
+Backup/
+*.dmp
+
+# OS
+.DS_Store
